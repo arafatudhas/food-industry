@@ -4,6 +4,7 @@ body{
 
 h1{
     font-size: 40px;
+    margin: 0;
 }
 
 .orange-color{
@@ -20,20 +21,50 @@ h1{
     padding-left: 5%;
     padding-right: 10%;
     margin-left: 5%;
+    padding-top: 50px;
+}
+.half-width p {
+    padding-bottom: 20px;
 }
 
-.half-width img{
-    width: 130%;
+.half-width-photo img{
+    width: 100%;
     padding-left: 0%;
-    padding-right: 50%;
+    padding-right: 80%;
+    margin-right: 70%;
 }
 
+.intro-image img {
+  height: 450px;
+  width: 300px;
+  margin-left: 50%;
+  overflow: hidden;
+  margin-top: 20px;
+}
 
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(orange, red);
+    background-image: linear-gradient(orange,tomato);
     padding: 10px 30px;
     color: white;
     font-weight: 500;
     border-radius: 5px;
+}
+.female{
+    height: 500px;
+    width: 500px;
+}
+
+.second-part{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+.about{
+    margin-left: 30%;
+}
+.about p {
+    padding-bottom: 20px;
+}
+.about h1 {
+    padding-top: 50px;
 }
