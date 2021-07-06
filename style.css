@@ -1,6 +1,8 @@
 body{
     font-family: 'Poppins', sans-serif;
+    
 }
+
 
 h1{
     font-size: 40px;
@@ -15,10 +17,12 @@ h1{
 .flexible-container{
     display: flex;
     margin-bottom: 150px;
+    width: 100%;
+    
 }
 
 .half-width{
-    width: 100%;
+    width: 50%;
     padding-left: 5%;
     padding-right: 10%;
     margin-left: 5%;
@@ -29,10 +33,10 @@ h1{
 }
 
 .half-width-photo img{
-    width: 100%;
+    width: 500px;
     padding-left: 0%;
-    padding-right: 80%;
-    margin-right: 70%;
+    /* padding-right: 80%;
+    margin-right: 70%; */
 }
 
 .intro-image img {
@@ -101,7 +105,33 @@ h1{
     display: flex;
 }
 
+/* contact section */
+
+.contact-widgets{
+    text-align: center;
+    background-color: #F5EAE3;
+    margin-bottom: 0 !important;
+    padding: 30px 0;
+}
+.openning-hour{
+    width: 30%;
+    display: block;
+}
+.about-us{
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+.location{
+    width: 30%;
+    display: block;
+}
+
 footer{
+    width: 100%;
     text-align: center;
     color: gray;
+    background-color: #0B0D17;
+    padding: 15px 0;
 }
+  
